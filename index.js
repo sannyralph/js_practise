@@ -54,14 +54,12 @@
 //     console.log(cars[i]);
 // }
 
-let data = {
-    name: "kind",
-    age: 47,
-    sex: "male",
+
+let randomStuff = ["phone", "car", 74, 83, ["juice", "milk", 83, true, false], "kind", "happy"]; 
+
+let x = 0;
+
+while (x < randomStuff.length){
+    console.log(randomStuff[x])
+    x++
 }
-console.log(data["name"])
-
-
-// for (let elem in data) {
-//     console.log(data["name"])
-// }
