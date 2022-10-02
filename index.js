@@ -55,11 +55,41 @@
 // }
 
 
-let randomStuff = ["phone", "car", 74, 83, ["juice", "milk", 83, true, false], "kind", "happy"]; 
+// let randomStuff = ["phone", "car", 74, 83, ["juice", "milk", 83, true, false], "kind", "happy"]; 
 
-let x = 0;
+// let x = 0;
 
-while (x < randomStuff.length){
-    console.log(randomStuff[x])
-    x++
+// while (x < randomStuff.length){
+//     console.log(randomStuff[x])
+//     x++
+// }
+
+// function testing(name){
+//    console.log("hey "+  name +" what is the plan for today");
+// }
+// testing("mike")
+
+
+// function randoms(a,b,c,d,e,f) {
+//     return a+b+c+d+e+f
+// }
+// console.log(2+3+2+7+3+9);
+
+// function numbers(num1,num2) {
+//     return num1 + num2
+// };
+
+// console.log(5095+7438);
+
+
+
+
+function numCheck(nums, num) {
+    for (let i=0; i<nums.length; i++){
+        if(nums[i] === num){
+            return true;
+        }
+    } 
+    return false;
 }
+console.log(numCheck([9,3,9,4,3,5], 4));
